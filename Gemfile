@@ -16,7 +16,7 @@ group :production do
 end
 
 gem 'unicorn'
-gem 'json'
+gem 'json', '~> 1.8.5'
 gem 'bourbon'
 gem 'rails', '4.0.8'
 gem 'sass-rails', '~> 4.0.2'
@@ -36,4 +36,4 @@ group :doc do
 	gem 'sdoc', require: false
 end
 
-ruby "2.2.4"
+ruby "2.5.1"
